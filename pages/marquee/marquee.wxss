@@ -1,0 +1,16 @@
+.marquee{
+  height:100rpx;
+  line-height:100rpx;
+  position:relative;
+}
+.marquee-box{
+  width:100%;
+  position:relative;
+}
+.marquee-text{
+  position:absolute;
+  top:0;
+  white-space: nowrap;
+  display:flex;
+  flex-direction: row;
+}
