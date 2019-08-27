@@ -1,11 +1,11 @@
 <view>
-  <view>跑马灯1（孤独）</view>
+  <view class="title">跑马灯1（孤独）</view>
   <view class="marquee">
     <view class="marquee-box">
       <view class="marquee-text" style="{{orientation}}:{{marqueeDistance}}px;font-size:{{fontSize}}px;color:{{color}}">{{text}}</view>
     </view>
   </view>
-  <view>跑马灯2（陪伴）</view>
+  <view class="title">跑马灯2（陪伴）</view>
   <view class="marquee">
     <view class="marquee-box">
       <view class="marquee-text" style="{{orientation}}:{{marqueeDistance2}}px;font-size: {{fontSize}}px;color:{{color}}">
@@ -16,7 +16,7 @@
       </view>
     </view>
   </view>
-  <view>跑马灯3（走位）</view>
+  <view class="title">跑马灯3（走位）</view>
   <view class="marquee">
     <view class="marquee-box">
       <view class="marquee-text" style="{{orientation}}:{{marqueeDistance3}}px;font-size:{{fontSize}}px;color:{{color}}">{{text}}</view>

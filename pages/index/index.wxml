@@ -1,5 +1,6 @@
-<view class="container">
+<view>
   <view class="demo-list">
     <navigator url="../../pages/marquee/marquee" hover-class="navigator-hover">跑马灯</navigator>
+      <navigator url="../../pages/pickerview/pickerview" hover-class="navigator-hover">视图选择器</navigator>
   </view>
 </view>

@@ -1,0 +1,29 @@
+<view>
+  <view class="picker-view">地区选择器1
+    <button bindtap="showCity">点我啊靓仔</button>
+  </view>
+  <view>
+    <input name="address" class="picker-view" value="{{address}}" disabled="true"></input>
+  </view>
+  <view hidden="{{isCity}}" class="selector">
+    <view class="inner_box">
+      <view class="header_box">
+        <view class="item l" data-act="cancel" data-mold="city" bindtap="ideChoice">取消</view>
+        <view class="item r" data-act="confirm" data-mold="city" bindtap="ideChoice">确定</view>
+      </view>
+      <picker-view class="picker_box" indicator-class="selected" value="{{cityValue}}" bindchange="bindCityChange">
+        <picker-view-column>
+          <view wx:for="{{provinces}}" wx:key="key">{{item}}</view>
+        </picker-view-column>
+        <picker-view-column>
+          <view wx:for="{{citys}}" wx:key="key">{{item}}</view>
+        </picker-view-column>
+        <picker-view-column>
+          <view wx:for="{{countys}}" wx:key="key">{{item}}</view>
+        </picker-view-column>
+      </picker-view>
+    </view>
+    <!-- 遮罩层 -->
+    <view class="layer" catchtouchend="ideChoice" data-act="cancel" data-mold="city"></view>
+  </view>
+</view>

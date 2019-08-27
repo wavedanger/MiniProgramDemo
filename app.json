@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/marquee/marquee"
+    "pages/marquee/marquee",
+    "pages/pickerview/pickerview"
   ],
   "window": {
     "backgroundTextStyle": "light",

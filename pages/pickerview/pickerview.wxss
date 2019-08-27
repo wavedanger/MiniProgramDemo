@@ -1,0 +1,33 @@
+.picker-view{
+  height:100rpx;
+  line-height:100rpx;
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin:20rpx;
+}
+.picker-view button{
+  width:200rpx;
+  background:none;
+  color:black;
+  font-size:28rpx;
+  margin:0;
+}
+.selector{ width: 100%; position: fixed; bottom: 0; left: 0; z-index: 999999}
+.selector .inner_box{ position: relative; z-index: 999999}
+.selector .header_box{ padding: 25rpx 0; overflow: hidden; box-sizing: border-box; background: #ffffff;}
+.selector .header_box .item{ float: left; font-size: 30rpx;box-sizing: border-box;}
+.selector .header_box .l{ width: 50%; padding-left: 50rpx;color:gray;}
+.selector .header_box .r{ width: 50%; text-align: right; padding-right: 50rpx;color:rgb(0,179,0)}
+.selector .selected{
+  height: 90rpx;
+  background-color:rgb(0,179,0);
+  position: relative;
+  z-index:0;
+  }
+.selector .picker_box{ width: 100%; height: 485rpx; background: #fff;}
+.selector .picker_box picker-view-column{ text-align: center;font-size:30rpx;}
+.selector .picker_box picker-view-column view{ line-height: 90rpx;border:none;}
+.selector .layer{ width: 100%; height: 100%; position: fixed; left: 0; top: 0; z-index: 10; background:rgba(0,0,0,0.5); }
