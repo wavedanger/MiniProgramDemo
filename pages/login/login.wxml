@@ -1,0 +1,24 @@
+<view>
+  <view class="title">登录页1<button data-index="1" bindtap="showModal">点我啊靓仔</button></view>
+  <view class="main" wx:if="{{showModal1}}">
+    <view class="top">
+      <view class="logo">
+        <image src="{{imageUrl}}" style="width:205rpx;height:205rpx;border-radius:50%;"></image>
+      </view>
+      <view class="t-title">{{title}}</view>
+      <view class="t-subTitle">{{subTitle}}</view>
+    </view>
+    <view class="middle">
+      <view class="m-title">
+        使用优惠券小程序需要获得以下授权：
+      </view>
+      <view class="m-subTitle">
+        · 获得您的公开信息（昵称、头像等）
+      </view>
+    </view>
+    <view class="bottom">
+      <button class="b-refuse" bindtap="refuse" data-index="1">拒绝</button>
+      <button class="b-login" open-type="getUserInfo" bindgetuserinfo="getUserInfo" data-index="1">登录</button>
+    </view>
+  </view>
+</view>

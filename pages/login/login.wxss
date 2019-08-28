@@ -1,0 +1,86 @@
+/* 其它样式 */
+.title{
+  height:100rpx;
+  line-height:100rpx;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin:20rpx;
+}
+.title button{
+  background:none;
+  width:200rpx;
+  color:black;
+  font-size:28rpx;
+  margin:0;
+}
+/* 登录页模板样式 */
+.main{
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index:999;
+  background-color: #efeff3;
+}
+.top{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:133rpx auto 66rpx;
+}
+.t-title{
+	font-size: 48rpx;
+	color: #333435;
+  margin:10rpx auto 26rpx;
+}
+.t-subTitle{
+  font-size: 36rpx;
+	color: #72767a;
+}
+.middle{
+  display:flex;
+  flex-direction: column;
+  padding:27rpx 55rpx;
+  border-top:4rpx solid #e5e5e5;
+}
+.m-title{
+  font-size:36rpx;
+  color:#333435;
+  margin:26rpx 0rpx;
+}
+.m-subTitle{
+  font-size: 36rpx;
+	color: #72767a;
+  padding-left:27rpx;
+}
+.bottom{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin:50rpx 55rpx auto;
+}
+.b-login{
+  margin:0;
+  width: 293rpx;
+	height: 70rpx;
+	background-color: #0ba409;
+	border-radius: 10rpx;
+  font-size: 28rpx;
+	line-height: 70rpx;
+	letter-spacing: 2rpx;
+	color: #ffffff;
+}
+.b-refuse{
+  width: 293rpx;
+	height: 70rpx;
+	background-color: #fff;
+	border-radius: 10rpx;
+  font-size: 28rpx;
+	line-height: 70rpx;
+	letter-spacing: 2rpx;
+	color: #000;
+  margin:0;
+}
