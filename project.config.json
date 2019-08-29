@@ -39,7 +39,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -60,6 +60,12 @@
 					"name": "登录页",
 					"pathName": "pages/login/login",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "选择列表",
+					"pathName": "pages/checkbox/checkbox",
 					"scene": null
 				}
 			]

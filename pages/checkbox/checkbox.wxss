@@ -1,0 +1,24 @@
+.content{
+    margin:20rpx;
+}
+.title{
+  height:100rpx;
+  line-height: 100rpx;
+}
+.sub-title{
+  height:100rpx;
+  line-height: 100rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list{
+  max-height:400rpx;
+  width:300rpx;
+}
+.list-1{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom:10rpx;
+}

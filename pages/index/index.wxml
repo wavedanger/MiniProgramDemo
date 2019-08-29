@@ -3,5 +3,6 @@
     <navigator url="../../pages/marquee/marquee" hover-class="navigator-hover">跑马灯</navigator>
       <navigator url="../../pages/pickerview/pickerview" hover-class="navigator-hover">视图选择器</navigator>
       <navigator url="../../pages/login/login" hover-class="navigator-hover">登录页</navigator>
+      <navigator url="../../pages/checkbox/checkbox" hover-class="navigator-hover">列表选择</navigator>
   </view>
 </view>

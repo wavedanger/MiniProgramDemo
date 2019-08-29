@@ -1,0 +1,23 @@
+<view>
+  <view class="content">
+    <view class="title">列表({{status==1?"多选":"单选"}})
+      <switch bindchange="switch1Change" />
+    </view>
+    <view class="sub-title">
+      当前选择：{{currentList1}}
+    </view>
+    <scroll-view scroll-y class="list">
+      <view class="list-1" wx:for="{{list}}" wx:key="index" wx:for-item="item" data-index="{{index}}" id="{{item.id}}" bindtap="checkChange1">
+        <view class="check">
+          <block wx:if="{{item.check}}">
+            <icon type="success" size="46rpx"></icon>
+          </block>
+          <block wx:if="{{!item.check}}">
+            <icon type="success" size="46rpx" color="#e1e1e1"></icon>
+          </block>
+        </view>
+        <view>{{item.name}}</view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

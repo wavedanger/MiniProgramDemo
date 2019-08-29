@@ -33,6 +33,11 @@ Page({
       that.setData({
         showModal1: false
       })
+      wx.showToast({
+        title: '已拒绝',
+        duration: 2000,
+        icon: "none"
+      })
     }
   },
   getUserInfo:function(options){
