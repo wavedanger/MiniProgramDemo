@@ -4,5 +4,6 @@
       <navigator url="../../pages/pickerview/pickerview" hover-class="navigator-hover">视图选择器</navigator>
       <navigator url="../../pages/login/login" hover-class="navigator-hover">登录页</navigator>
       <navigator url="../../pages/checkbox/checkbox" hover-class="navigator-hover">列表选择</navigator>
+       <navigator target="miniProgram" open-type="exit">exit</navigator>
   </view>
 </view>
