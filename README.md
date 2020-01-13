@@ -20,6 +20,24 @@
 相同：都是组件化
 不同：template主要是展示，而component拥有自己的js
 使用：普通展示用template，较强逻辑使用component
+
+### 6. wxs
+常用场景：数字，时间规范
+格式：{{wxsname.func(data)}}//wxsname为module名，data为数据，func为规范方法
+```
+//定义
+<wxs module="wxsname">
+var func=(data){
+  return data.toFixed(2)
+}
+module.exports={
+func:func
+}
+</wxs>
+//引用
+<wxs src="相对路径" module="wxsname"/>
+<view>{{wxsname.func(1.222222)}}</view>//显示为1.22
+```
 </details>
 
 ## hold on
