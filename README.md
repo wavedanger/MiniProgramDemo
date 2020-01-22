@@ -38,6 +38,12 @@ func:func
 <wxs src="相对路径" module="wxsname"/>
 <view>{{wxsname.func(1.222222)}}</view>//显示为1.22
 ```
+
+### 7. currentTarget与target
+一个指触发，另一个指产生
+
+### 8. touch与touchChange
+touchEnd时不同，多手指触摸时不同
 </details>
 
 ## hold on
