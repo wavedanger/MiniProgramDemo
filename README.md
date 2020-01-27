@@ -44,6 +44,20 @@ func:func
 
 ### 8. touch与touchChange
 touchEnd时不同，多手指触摸时不同
+
+### 9. template组件使用
+嵌套组件时，由内往外
+传递数据时，由外往内
+传递数据对象时，可用"..."扩展运算符传递属性
+
+### 10. 数据传递undefine
+一般数据传递的对象需初始化，因为数据一般是那异步请求
+
+### 11. scroview不支持上拉刷新
+改用view监听onPullDownRefresh函数，同时scroview的bindscrolltolower可改为监听onReachBottom
+
+### 12. 自定义data-的问题
+data-imgUrl取值时，需为e.currentTarget.dataset.imgurl(小写)，data-后的命名会自动转为小写
 </details>
 
 ## hold on
